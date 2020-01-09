@@ -1,0 +1,15 @@
+[
+    {
+        "portMappings": [
+        {
+            "hostPort": 0,
+            "protocol": "tcp",
+            "containerPort": 3000
+        }
+        ],
+        "memory": null,
+        "memoryReservation": null,
+        "image": "${image_uri}",
+        "name": "${container_name}"
+    }
+]
